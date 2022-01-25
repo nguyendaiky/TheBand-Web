@@ -7,6 +7,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Common */
@@ -85,6 +86,7 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav > li {
@@ -138,6 +140,7 @@ html {
     background-color: #ccc;
 }
 
+.menu,
 .search {
     display: block;
     width: 60px;
@@ -146,6 +149,7 @@ html {
     position: relative;
 }
 
+.menu .menu-icon,
 .search .search-icon {
     display: block;
     color: #fff;
@@ -155,6 +159,15 @@ html {
 
 .search:hover {
     background-color: #f44336;
+}
+
+.menu:hover .menu-icon {
+    color: #000;
+    background-color: #ccc;
+}
+
+.menu {
+    display: none;
 }
 
 #slider {
@@ -180,6 +193,7 @@ html {
 
 .content-section {
     width: 900px;
+    max-width: 100%;
     margin-inline: auto;
     padding: 64px 16px 112px;
 }
