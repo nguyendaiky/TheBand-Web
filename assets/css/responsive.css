@@ -10,6 +10,14 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+    .s-col-1 {
+        width: 100%;
+    }
+
+    #header {  
+        overflow: hidden;
+    }
+
     #nav {
         width: 100%;
     }
@@ -26,6 +34,21 @@
         display: block;
     }
 
+    #nav > li > a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+        box-shadow: none;
+    }
+
+    #nav .subnav li a {
+        padding: 15px 40px;
+        color: #fff;
+    }
+
     .search {
         display: none;
     }
@@ -35,5 +58,9 @@
         position: absolute;
         top: 0;
         right: 0;
+    }
+
+    .about .member-item .member-img {
+        width: 60%;
     }
 }

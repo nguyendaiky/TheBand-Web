@@ -16,6 +16,14 @@ html {
     margin-top: 8px !important;
 }
 
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .clear {
     clear: both;
 }
@@ -86,7 +94,6 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav > li {
@@ -226,7 +233,7 @@ html {
 }
 
 .about .member-list {
-    margin-top: 62px;
+    margin-top: 30px;
 }
 
 .about .member-item .member-img {
@@ -273,7 +280,7 @@ html {
 }
 
 .ticket .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
     
 }
 
