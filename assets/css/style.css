@@ -66,13 +66,16 @@ html {
 .btn {
     display: inline-block;
     font-family: "Lato", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     background-color: #000;
     color: #fff;
     padding: 11px 16px;
     margin-top: 15px;
     text-decoration: none;
     border: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -181,7 +184,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat;
+    background: url('../img/slider/chicago.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -191,6 +194,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    text-shadow: 0 0 1px #000;
 }
 
 #slider .text-content .text-content-heading {
@@ -330,6 +334,15 @@ html {
 
 .contact .contact-info i {
     width: 32px;
+}
+
+.contact .contact-info a {
+    color: #00e;
+    opacity: 0.9;
+}
+
+.contact .contact-info a:hover {
+    opacity: 1;
 }
 
 .contact .contact-form .form-control {
